@@ -24,7 +24,7 @@ fi
 
 echo "\033[1;37m[Reset Program]\033[0m - \033[1;33mBegin\033[0m"
 mainBranchName="main"
-commitMessage="Initial commit"
+commitMessage="Template from github.com/kylewandishin/typescript-react-template"
 remoteRepository=""
 pushCommand="git push -u origin $mainBranchName"
 while [[ $# -gt 0 ]]; do
@@ -55,6 +55,7 @@ while [[ $# -gt 0 ]]; do
 done
 
 rm -rf $(dirname "$0")/../.git
+rm $(dirname "$0")/../LICENSE
 echo "\033[1;37m[Reset Program]\033[0m - old git deleted"
 git init $(dirname "$0")/../ > /dev/null 2>&1
 git branch -M $mainBranchName > /dev/null 2>&1
