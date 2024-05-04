@@ -135,12 +135,6 @@ To get started with `vitest`, follow these steps:
    You can write as many tests as you need, covering different scenarios and edge cases.
    create all tests inside `/tests` folder and use the extension `.test.ts`
 
-3. Test the template is set up corrently by running the following command:
-
-   ```bash
-   npm test
-   ```
-
 For more information on how to use `vitest`, you can refer to the [official documentation](https://vitest.dev/docs).
 
 ## License
