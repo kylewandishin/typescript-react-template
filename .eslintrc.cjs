@@ -53,5 +53,6 @@ module.exports = {
     "@typescript-eslint/array-type": ["error", { default: "generic" }],
     "new-cap": "error",
     "tsdoc/syntax": "error",
+    "react/react-in-jsx-scope": "off",
   },
 };
