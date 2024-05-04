@@ -85,11 +85,10 @@ To use ESLint in your project, follow these steps:
     You can customize the ESLint rules according to your project's requirements. Refer to the [ESLint documentation](https://eslint.org/docs/user-guide/configuring) for a full list of available options.
 2.  Integrate ESLint with your code editor. Most popular code editors have extensions or built-in support for ESLint. Install the appropriate extension for your editor and enable it.
 3.  Run ESLint to analyze your code. You can run ESLint manually on specific files or use it as part of your build process. Here's an example of running ESLint using the command line:
-
-        ```bash
-        npm run lint
-        ```
-        This command analyzes all JavaScript files in the current directory and its subdirectories.
+    ```bash
+    npm run lint
+    ```
+    This command analyzes all JavaScript files in the current directory and its subdirectories.
 
     By following these steps, you can leverage ESLint to catch potential errors and enforce consistent code style in your project.
 
